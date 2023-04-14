@@ -1,8 +1,6 @@
-# Mon Projet Angular
+# La petite Abeille
 
-Ce projet est une application Angular simple qui présente une page web avec un en-tête et une liste de cartes. L'en-tête contient le logo de "La revue la Petite Abeille" et un menu horizontal avec trois éléments : Recherche, Actualités et Contacts, chacun accompagné de son icône.
-
-La partie principale de la page web (body) affiche des cartes avec une image, une date et une heure de publication, un titre et un texte descriptif. Les cartes sont organisées en lignes, et un bouton "Voir plus" permet d'afficher une nouvelle ligne de cartes.
+Projet Yoozly
 
 ## Prérequis
 
@@ -16,7 +14,7 @@ Pour exécuter ce projet, assurez-vous d'avoir les éléments suivants installé
 
 1. Clonez ce dépôt sur votre machine locale : https://github.com/SELLAMI-Soufiane/projet-yoozly
 
-2. Accédez au dossier du projet : cd la-petite-abeille
+2. Accédez au dossier du projet : cd projet-yoozly
 
 3. Installez les dépendances du projet : npm install
 
@@ -31,7 +29,3 @@ Ouvrez votre navigateur et accédez à `http://localhost:4200/`. L'application s
 Pour créer une version de production de l'application, exécutez la commande suivante : ng build --prod
 
 Les fichiers de construction seront stockés dans le dossier `dist/`.
-
-## Déploiement
-
-Pour déployer l'application sur un serveur ou un service d'hébergement, consultez la documentation officielle d'Angular : [https://angular.io/guide/deployment](https://angular.io/guide/deployment)
