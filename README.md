@@ -1,27 +1,37 @@
-# LaPetiteAbeille
+# Mon Projet Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+Ce projet est une application Angular simple qui présente une page web avec un en-tête et une liste de cartes. L'en-tête contient le logo de "La revue la Petite Abeille" et un menu horizontal avec trois éléments : Recherche, Actualités et Contacts, chacun accompagné de son icône.
 
-## Development server
+La partie principale de la page web (body) affiche des cartes avec une image, une date et une heure de publication, un titre et un texte descriptif. Les cartes sont organisées en lignes, et un bouton "Voir plus" permet d'afficher une nouvelle ligne de cartes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prérequis
 
-## Code scaffolding
+Pour exécuter ce projet, assurez-vous d'avoir les éléments suivants installés sur votre système :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (version 14.x ou supérieure)
+- npm (version 6.x ou supérieure)
+- Angular CLI (version 12.x ou supérieure)
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clonez ce dépôt sur votre machine locale : https://github.com/SELLAMI-Soufiane/projet-yoozly
 
-## Running unit tests
+2. Accédez au dossier du projet : cd la-petite-abeille
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Installez les dépendances du projet : npm install
 
-## Running end-to-end tests
+## Exécution en mode développement
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Pour exécuter l'application en mode développement, exécutez la commande suivante : ng serve
 
-## Further help
+Ouvrez votre navigateur et accédez à `http://localhost:4200/`. L'application se rechargera automatiquement si vous modifiez l'un des fichiers source.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Création d'une version de production
+
+Pour créer une version de production de l'application, exécutez la commande suivante : ng build --prod
+
+Les fichiers de construction seront stockés dans le dossier `dist/`.
+
+## Déploiement
+
+Pour déployer l'application sur un serveur ou un service d'hébergement, consultez la documentation officielle d'Angular : [https://angular.io/guide/deployment](https://angular.io/guide/deployment)
