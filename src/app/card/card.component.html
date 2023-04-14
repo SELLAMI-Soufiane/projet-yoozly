@@ -1,0 +1,9 @@
+<div class="card">
+  <img src="{{card.imageUrl}}" alt="{{card.title}}" />
+  <p class="date">
+    <i class="fa fa-clock-o"></i>
+    <span>Publié le {{card.date | date: 'd MMMM y'}}</span>
+  </p>
+  <h3>{{card.title}}</h3>
+  <p class="description">{{card.description}}</p>
+</div>

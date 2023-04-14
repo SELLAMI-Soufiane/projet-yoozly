@@ -1,0 +1,28 @@
+.list {
+    background-color: #e9f1f7;
+  }
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    padding: 20px;
+  }
+
+  .load-more-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .load-more-card-button {
+    background-color: white;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+  }

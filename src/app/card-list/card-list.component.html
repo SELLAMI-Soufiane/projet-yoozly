@@ -1,0 +1,8 @@
+<div class="list">
+    <div class="card-list">
+        <app-card *ngFor="let card of cards" [card]="card"></app-card>
+    </div>
+    <div class="load-more-card-container">
+        <button (click)="loadMoreCards()" class="load-more-card-button">Voir plus d'actus</button>
+    </div>
+</div>

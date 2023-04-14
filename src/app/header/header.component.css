@@ -1,0 +1,57 @@
+  header {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 1;
+    display: flex;
+    margin-left: 190px;
+  }
+  
+  .logo img {
+    height: 220px;
+  }
+  
+  .menu {
+    flex: 2;
+    display: flex;
+    margin-left: 440px;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 1.2em;
+  }
+  
+  .menu li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .menu ul {
+    gap: 10px;
+  }
+}
